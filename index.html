@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <title>Projeto Mario</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LINKS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="components/images/favicon.ico">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="components/css/reset.css">
+    <link rel="stylesheet" href="components/css/style.css">
+    <link rel="stylesheet" href="components/css/responsive.css">
+    
+
+</head>
+<body>
+    <div class="fundo-video"> 
+        <video class="video" autoplay loop muted>
+            <source src="components/video/video-mario.mp4" type="video/mp4"/>
+        </video>
+    </div> 
+    <header class="header">
+        <a class="logo">
+            <img class="img-logo" src="components/images/logo-chapeu-mario.png" alt="logo mario">
+        </a>
+        <nav class="navbar">
+            <ul class="main">
+                <li>
+                    <a href="#">HOME</a>
+                </li>
+                <li>
+                    <a href="#">DETALHES</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="info">
+            <img  class="img-title "src="components/images/titulo.png" alt="titulo da pagina do mario">
+            <p class="desc">Mario é um encanador junto com seu irmão Luigi. Um dia, eles vão parar no reino dos cogumelos, governado pela Princesa Peach, mas ameaçado pelo rei dos Koopas, que faz de tudo para conseguir reinar em todos os lugares. 
+            </p>
+            <button class="btn-trailer">Veja o Trailer</button>
+        </div>
+
+        <img class="mario" src="components/images/super-mario-chars.png"/>
+
+        <div class="modal">
+            <div class="content-modal">
+                <span class="close-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="Trailer Oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <script src="components/js/index.js"></script>
+</body>
+</html>
